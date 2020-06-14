@@ -16,7 +16,7 @@
 			margin: 0;
 		}
 
-		@media (min-width: 768px){
+		@media (min-width: 375px){
 			body{
 				background-color:#eeeaea;
 			}
@@ -358,7 +358,7 @@
 				top:-83px;
 			}
 		}
-		@media (max-width:768px){
+		@media (max-width:375px){
     		#top{display:none;}	
 			body{
 				background-color:#eeeaea;
@@ -370,9 +370,13 @@
 				margin-bottom:0;
 			}
 			#nav-1{
-				margin-left:10%;
+				margin-left:5%;
 				display:inline-block;
 				line-height:60px;
+			}
+			#nav-1 img{
+				height:45px;
+				width:130px;
 			}
 			#btn1{
 				color:white;
@@ -413,7 +417,7 @@
 				box-shadow: 2px 2px 3px black;
 				text-align: center;
 				height:40px;
-				width:380px;
+				width:332px;
 				margin:25px auto;
 			}
 			#ban4 a{
@@ -423,21 +427,21 @@
 			#ban4 #ban4-1{
 				background-color: gainsboro;
 				color:#8B8989;
-				width:100px;
+				width:80px;
 				height:40px;
 				line-height: 40px;
 				border-radius:5px 0 0 5px;
 			}
 			#ban4 #ban4-3{
 				background-color: #FF4500;
-				width:90px;
+				width:70px;
 				height:40px;
 				line-height: 40px;
 				border-radius: 0 5px 5px 0 ;
 			}
 			#search{
 				float:left;
-				width:187px;
+				width:180px;
 				height:40px;
 			}
 			#Sbanner1{
@@ -452,23 +456,36 @@
 			#Sbanner2 li{
 				list-style-type:none;
 				display:inline-block;
+				position: relative;
+				left:-20px;
 			} 
 			#Sbanner2 p{
-				font-size:13px;
+				font-size:11px;
 				color:#8B8989;	
 			}
 			#Sbanner2 .p2{
-				font-size:14px;
+				font-size:12px;
 				color:#104E8B;
+			}
+			#Sbanner2 li img{
+				height:50px;
+				width:50px;
 			}
 			#Sbanner2 button{
 				color:#8B8989;
 				border:1px solid #8B8989;
 				background-color: white;
+				width:70px;
+				text-align:center;
+				font-size:12px;
 			}
 			#li1{
 				position:relative;
-				top:20px;
+				top:25px;
+			}
+			#li4{
+				height:55px;
+				width:55px;
 			}
 			#hot1{
 				display:none;
@@ -512,22 +529,22 @@
 				border-bottom:1px solid rgb(228, 225, 225);
 				width:85%;
 				margin:10px auto;
-				font-size:16px;
+				font-size:14px;
 				margin-bottom:25px;
 			}
 			#vision1 .bered{
 				color:red;
-				font-size:18px;
+				font-size:16px;
 				font-weight: bolder;
 			}
 			.bered{
 				color:red;
-				font-size:18px;
+				font-size:16px;
 				font-weight: bolder;
 			}
 			.beblack{
 				color:black;
-				font-size:18px;
+				font-size:16px;
 			}
 			#hot3-1{
 				border-bottom:1px solid rgb(228, 225, 225);
@@ -586,20 +603,18 @@
 			#advantages{
 				width:85%;
 				margin:10px auto;
-				font-size: 14px;
+				font-size: 12px;
 				height:320px;
 			}
 			#advantages li{
 				list-style-type: none;
 				border-bottom:1px solid rgb(228, 225, 225);
 				height:80px;
-				margin-bottom: 10px;
-				padding-left: 25px;
-				padding-top: 10px;
+				margin:10px auto;
 			}
 			#advantages .ad1{
 				height:80px;
-				width:70%;
+				width:75%;
 				float:right;
 			}
 			#pvision{
@@ -669,7 +684,7 @@
 		<!--手机机场接送-->
 		<div id="Sbanner2">
 			<ul>
-			<li><img src="img/carH.png"/></li>
+			<li id="li4"><img src="img/carH.png"/></li>
 			<li id="li1">
 				<p class="p2">机场接送 省钱省心</p>
 				<p>提供上海、苏州、无锡各市</p>
